@@ -106,7 +106,7 @@ export default function TicTacToe() {
 
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-gray-900 text-white">
-      <h1 className="text-3xl font-bold mb-6">Tic Tac Toe (Zor Mod)</h1>
+      <h1 className="text-3xl font-bold mb-6">Tic Tac Toe</h1>
       <div className="grid grid-cols-3 gap-2">
         {board.map((cell, i) => (
           <button
